@@ -1,6 +1,6 @@
 {
   "name": "bitly-cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "lib/bitly-cli.js",
   "description": "A simple CLI that allows for instant creation of a bit.ly link",
   "homepage": "http://www.itskrish.co",

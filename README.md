@@ -5,22 +5,16 @@ A simple CLI that allows for instant creation of a bit.ly link
 ## Getting Started
 Install the module with: `npm install bitly-cli`
 
-```javascript
-var bitly-cli = require('bitly-cli');
-bitly-cli.awesome(); // "awesome"
+```bash
+bitly -u 'http://url-that-you-want-to-shorten.com'
 ```
 
-## Documentation
-_(Coming soon)_
-
 ## Examples
-_(Coming soon)_
+If I wanted to shorten http://itskrish.co, all I'd have to do is:
 
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
-
-## Release History
-_(Nothing yet)_
+```bash
+bitly -u 'http://itskrish.co'
+```
 
 ## License
 Copyright (c) 2014 Krish Dholakiya. Licensed under the MIT license.

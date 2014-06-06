@@ -1,0 +1,40 @@
+{
+  "name": "bitly-cli",
+  "version": "0.0.0",
+  "main": "lib/bitly-cli.js",
+  "description": "A simple CLI that allows for instant creation of a bit.ly link",
+  "homepage": "http://www.itskrish.co",
+  "bugs": "https://github.com/krrishd/bitly-cli/issues",
+  "author": {
+    "name": "Krish Dholakiya",
+    "email": "krishna.dholakiya@gmail.com",
+    "url": "http://www.itskrish.co"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krrishd/bitly-cli"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "bitly": "^1.2.5"
+  },
+	"bin": {
+		"bitly": "lib/bitly-cli.js"
+	},
+	"preferGlobal": "true"
+}
